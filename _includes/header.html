@@ -7,7 +7,15 @@
   {% else %}
   <div id="masthead">
     <h1>{{ site.title }}</h1>
-    <h6 style="text-align:center">{{ site.description }}</h6>
+    <h3 style="text-align:center">{{ site.description }}</h3>
+    <div style="text-align:center; margin: 10px 0;">
+      <span style="font-size: 16px; color: #666;">
+        {% assign now = 'now' | date: '%Y년 %m월 %d일' %}
+        {% assign weekdays = '월,화,수,목,금,토,일' | split: ',' %}
+        {% assign weekday_index = 'now' | date: '%u' | minus: 1 %}
+        {{ now }} {{ weekdays[weekday_index] }}요일
+      </span>
+    </div>
   </div>
   {% endif %}
 </div>
