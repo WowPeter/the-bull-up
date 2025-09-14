@@ -1,5 +1,5 @@
-<article>
-  <h3><a href="{{ include.item.url | prepend: site.baseurl | prepend: site.url }}">{{ include.item.title }}</a></h3>
+<article style="cursor: pointer;" onclick="window.location.href='{{ include.item.url | prepend: site.baseurl | prepend: site.url }}'">
+  <h3><a href="{{ include.item.url | prepend: site.baseurl | prepend: site.url }}" style="text-decoration: none; color: inherit;">{{ include.item.title }}</a></h3>
   <img class="bw" src="{{ include.item.image }}">
   {% if item.image_caption %}
     <blockquote>{{ include.item.image_caption }}</blockquote>
