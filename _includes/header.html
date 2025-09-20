@@ -8,13 +8,39 @@
   <div id="masthead">
     <h1>{{ site.title }}</h1>
     <div style="text-align:center; margin: 10px 0;">
-      <span style="font-size: 16px; color: #666;">
-        {% assign now = 'now' | date: '%Y년 %m월 %d일' %}
-        {% assign weekdays = '월,화,수,목,금,토,일' | split: ',' %}
-        {% assign weekday_index = 'now' | date: '%u' | minus: 1 %}
-        {{ now }} {{ weekdays[weekday_index] }}요일
+      <span id="current-date" style="font-size: 16px; color: #666;">
+        <!-- JavaScript로 현재 날짜 표시 -->
       </span>
     </div>
+    <script>
+      function updateCurrentDate() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
+        const weekday = weekdays[now.getDay()];
+        
+        const dateString = `${year}년 ${month}월 ${day}일 ${weekday}요일`;
+        document.getElementById('current-date').textContent = dateString;
+      }
+      
+      // 페이지 로드 시 현재 날짜 표시
+      updateCurrentDate();
+      
+      // 매일 자정에 날짜 업데이트 (선택사항)
+      const now = new Date();
+      const tomorrow = new Date(now);
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      tomorrow.setHours(0, 0, 0, 0);
+      const msUntilMidnight = tomorrow.getTime() - now.getTime();
+      
+      setTimeout(() => {
+        updateCurrentDate();
+        // 24시간마다 업데이트
+        setInterval(updateCurrentDate, 24 * 60 * 60 * 1000);
+      }, msUntilMidnight);
+    </script>
     <h3 style="text-align:center">{{ site.description }}</h3>
   </div>
   {% endif %}
