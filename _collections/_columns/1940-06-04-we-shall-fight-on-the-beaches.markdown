@@ -2,7 +2,7 @@
 layout: post
 title:  "We Shall Fight on the Beaches"
 author: Winston Churchill
-date:   1940-06-04 20:20:35 +0200
+date:   1940-06-04
 image: https://www.telegraph.co.uk/content/dam/news/2016/07/19/103623206_-_churchill-xlarge_trans_NvBQzQNjv4BqbwjJfl94PiMrTGifp-1BkJ5QPMEnr1YogE1l8oKYrPI.jpg
 image_caption: There is to be no whistling or unnecesary noise in this passage.
 ---
