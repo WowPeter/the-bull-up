@@ -5,9 +5,9 @@ author: 한국어촌어항공단
 date: 2025-09-15 00:00:00 +0900
 startdate: 2025-09-15 00:00:00 +0900
 enddate: 2025-10-24 23:59:59 +0900
-image: https://www.thenation.com/wp-content/uploads/2016/12/obama_2008_election_rtr_img.jpg?scale=896&compress=80
+image: https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=d522beacc6754b9993a83356ade2e5ad
 position: right
-image_caption: President-elect Barack Obama spoke to the world from his home city of Chicago as he became the first black president of the United States.
+image_caption: 귀어귀촌 캐릭터(귀어해)를 활용한 귀어귀촌 브랜드 확산을 위해 ‘귀어귀촌 캐릭터 활용 공모전’을 아래와 같이 개최하오니, 관심 있는 분들의 많은 참여를 바랍니다.
 ---
 Hello, Chicago.
 
