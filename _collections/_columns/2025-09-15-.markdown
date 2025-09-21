@@ -119,3 +119,7 @@ image_caption: 귀어귀촌 캐릭터(귀어해)를 활용한 귀어귀촌 브�
 ## 문의
 - 귀어귀촌종합센터
 - ☎ 02-701-3812  
+
+https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?bbs_id=4150da283caa4bd8862db014d063e9dd&pagetype=bbs&search_result=&search_result_cnddt=&epilogue_bgnde=&epilogue_endde=&date_range=all&epilogue_bgnde_cnddt=&epilogue_endde_cnddt=&date_range_cnddt=all&search_title_contents=&search_insttNm=&miv_pageNo=2&preDate=&endDate=
+https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=2dace421bc7c4c0091e97614da573b80
+https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=b31d870533a74fc6baae03685412a7e7
