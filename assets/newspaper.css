@@ -28,7 +28,7 @@
 body {
   font-family: 'Georgia', serif;
   margin: 0;
-  background-color: #f5f0e8;
+  background-color: #f5f0e8 !important;
 }
 p {
   text-align: justify;
