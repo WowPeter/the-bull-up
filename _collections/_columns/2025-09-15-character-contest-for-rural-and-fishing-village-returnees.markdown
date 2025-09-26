@@ -3,10 +3,9 @@ layout: post
 title: 귀어귀촌 캐릭터 활용 공모전
 author: 한국어촌어항공단
 date: 2025-09-15 09:00:00 +0900
-startdate: 2025-09-15 00:00:00 +0900
-enddate: 2025-10-24 23:59:59 +0900
+startdate: 2025-09-15 09:00:00 +0900
+enddate: 2025-10-25 08:59:59 +0900
 image: https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=d522beacc6754b9993a83356ade2e5ad
-position: right
 image_caption: 한국어촌어항공단, haundy@fipa.or.kr
 ---
 # 귀어귀촌 캐릭터 활용 공모전 공고문 (2025)

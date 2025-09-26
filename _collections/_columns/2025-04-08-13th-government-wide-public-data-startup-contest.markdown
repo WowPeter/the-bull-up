@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Common Sense"
-author: Thomas Payne
-date:   1776-02-14
-image: http://www.scrollpublishing.com/store/media/Thomas-Payne.jpg
+title:  "제13회 범정부 공공데이터 활용 창업경진대회"
+author: 행정안전부
+date: 2025-04-08 03:00:00 +0900
+startdate: 2025-04-08 03:00:00 +0900
+enddate: 2026-01-01 08:59:59 +0900
+image: https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=e16910593dbd48659469e9f855d58c6c
+image_caption: 행정안전부 디지털정부혁신실 공공지능데이터국 공공지능데이터정책과, wony0203@korea.kr
 ---
 Some writers have so confounded society with government, as to leave little or no distinction between them; whereas they are not only different, but have different origins. Society is produced by our wants, and government by our wickedness; the former promotes our happiness positively by uniting our affections, the latter negatively by restraining our vices. The one encourages intercourse, the other creates distinctions.
 
