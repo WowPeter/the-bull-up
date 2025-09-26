@@ -120,8 +120,7 @@ image_caption: 한국어촌어항공단, haundy@fipa.or.kr
 - 귀어귀촌종합센터
 - ☎ 02-701-3812  
 
-<a href="https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?bbs_id=4150da283caa4bd8862db014d063e9dd&pagetype=bbs&search_result=&search_result_cnddt=&epilogue_bgnde=&epilogue_endde=&date_range=all&epilogue_bgnde_cnddt=&epilogue_endde_cnddt=&date_range_cnddt=all&search_title_contents=&search_insttNm=&miv_pageNo=2&preDate=&endDate=" style="color:blue;" target="_blank">공모전 공고 페이지</a>
-
-<a href="https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=2dace421bc7c4c0091e97614da573b80" style="color:blue;">귀어귀촌 캐릭터 활용 공모전 공고문.hwp</a>
-
-<a href="https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=b31d870533a74fc6baae03685412a7e7" style="color:blue;">귀어귀촌 캐릭터 활용 공모전 출품 서식.hwp</a>
+- <a href="https://www.sealife.go.kr/board/notice/view.do?selectedId=6506" style="color:blue;" target="_blank">온라인 접수처</a>
+- <a href="https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?bbs_id=4150da283caa4bd8862db014d063e9dd&pagetype=bbs&search_result=&search_result_cnddt=&epilogue_bgnde=&epilogue_endde=&date_range=all&epilogue_bgnde_cnddt=&epilogue_endde_cnddt=&date_range_cnddt=all&search_title_contents=&search_insttNm=&miv_pageNo=2&preDate=&endDate=" style="color:blue;" target="_blank">공모전 공고 페이지</a>
+- <a href="https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=2dace421bc7c4c0091e97614da573b80" style="color:blue;">귀어귀촌 캐릭터 활용 공모전 공고문.hwp</a>
+- <a href="https://sotong.go.kr/commonfile/downloadEpilogueAtchmnfl.do?atchmnfl_id=b31d870533a74fc6baae03685412a7e7" style="color:blue;">귀어귀촌 캐릭터 활용 공모전 출품 서식.hwp</a>
