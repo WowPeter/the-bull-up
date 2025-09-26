@@ -2,7 +2,7 @@
 /* Structure */
 
 	body {
-		background:					#fff;
+		background:					#f5f0e8;
 		font-family:				georgia, times, serif;
 		font-size:					100%; /* 16px */
 		/* Hyphenate
@@ -450,7 +450,7 @@
 	}
 
 	@media all and (max-width: 767px) and (min-width: 640px) {
-		body	{font-size: 115%; background: #fff;}
+		body	{font-size: 115%; background: #f5f0e8;}
 		h1		{font-size: 2em;}
 		h4		{font-size: 0.813em; text-align: left;}
 		.fluid	{width: 100%;}
@@ -473,7 +473,7 @@
 	}
 
 	@media all and (max-width: 639px) and (min-width: 480px) {
-		body	{font-size: 100%; background: #fff;}
+		body	{font-size: 100%; background: #f5f0e8;}
 		h1		{font-size: 1.85em;}
 		h4		{font-size: 0.813em; text-align: left;}
 		.fluid	{width: 100%;}
@@ -496,7 +496,7 @@
 	}
 
 	@media all and (max-width: 479px){
-		body	{font-size: 80%; background: #fff;}
+		body	{font-size: 80%; background: #f5f0e8;}
 		h1		{font-size: 1.75em;}
 		h4		{font-size: 0.813em; text-align: left;}
 		.fluid	{width: 100%;}
