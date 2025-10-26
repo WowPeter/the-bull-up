@@ -5,7 +5,7 @@ author: Quant Analysis System
 date: 2025-10-23 09:00:00 +0900
 startdate: 2025-10-23 09:00:00 +0900
 enddate: 2025-10-23 23:59:59 +0900
-image: /assets/today-alert-20251023.png
+image: /assets/images/today-alert-20251023.png
 image_caption: 포지션 변화 알림 - 2025년 10월 23일
 ---
 
