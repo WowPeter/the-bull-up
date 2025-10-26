@@ -4,14 +4,9 @@ layout: default
 
 <!-- MASONRY SECTION -->
 <section class="masonry">
-  {% assign current_date = 'now' | date: '%Y-%m-%d %H:%M:%S' %}
   {% for item in site.columns reversed %}
-    {% assign item_start = item.startdate | date: '%Y-%m-%d %H:%M:%S' %}
-    {% assign item_end = item.enddate | date: '%Y-%m-%d %H:%M:%S' %}
-    {% if current_date >= item_start and current_date <= item_end %}
-      <div class="item">
-        {% include article.html item=item %}
-      </div>
-    {% endif %}
+    <div class="item">
+      {% include article.html item=item %}
+    </div>
   {% endfor %}
 </section>
