@@ -5,7 +5,7 @@ layout: default
 <!-- HEADLINE SECTION -->
 <section class="headline">
   {% for item in site.columns reversed %}
-    {% if item.path contains 'daily-trading-signal' %}
+    {% if item.layout == 'headline' %}
       <div class="headline-item">
         {% include article.html item=item %}
       </div>
@@ -16,7 +16,7 @@ layout: default
 <!-- MASONRY SECTION -->
 <section class="masonry">
   {% for item in site.columns reversed %}
-    {% unless item.path contains 'daily-trading-signal' %}
+    {% unless item.layout == 'headline' %}
       <div class="item">
         {% include article.html item=item %}
       </div>
