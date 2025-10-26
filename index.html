@@ -2,11 +2,24 @@
 layout: default
 ---
 
+<!-- HEADLINE SECTION -->
+<section class="headline">
+  {% for item in site.columns reversed %}
+    {% if item.path contains 'daily-trading-signal' %}
+      <div class="headline-item">
+        {% include article.html item=item %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>
+
 <!-- MASONRY SECTION -->
 <section class="masonry">
   {% for item in site.columns reversed %}
-    <div class="item">
-      {% include article.html item=item %}
-    </div>
+    {% unless item.path contains 'daily-trading-signal' %}
+      <div class="item">
+        {% include article.html item=item %}
+      </div>
+    {% endunless %}
   {% endfor %}
 </section>

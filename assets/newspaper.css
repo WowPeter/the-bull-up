@@ -75,6 +75,24 @@ q {
   margin-left:-1px;
   margin-bottom: 15px;
 }
+/* HEADLINE SECTION */
+.headline {
+  width: 99%;
+  padding: 0;
+  margin: 0 auto 30px auto;
+}
+
+.headline-item {
+  display: block;
+  background: #faf7f0;
+  padding: 1em 2em;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px solid #000;
+}
+
 .item {
   display: block;
   background: #faf7f0;
