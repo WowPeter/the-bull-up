@@ -8,7 +8,6 @@ enddate: 2025-10-23 23:59:59 +0900
 image: /assets/images/today-alert-20251023.png
 image_caption: 포지션 변화 알림 - 2025년 10월 23일
 ---
-<!--more-->
 
 ## 2025년 10월 23일 포지션 변화 알림
 
