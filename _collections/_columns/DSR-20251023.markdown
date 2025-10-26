@@ -1,0 +1,16 @@
+---
+layout: post
+title: DSR 일일 트레이딩 시그널 - 2025년 10월 23일
+author: Quant Analysis System
+date: 2025-10-23 09:00:00 +0900
+image: /assets/images/DSR-20251023.png
+---
+# DSR 일일 트레이딩 시그널
+
+### 포지션 변화
+
+- **신호**: 골드크로스
+- **종가**: 3,850원
+- **포지션**: 현금 ➜ 주식 (매수)
+
+---
