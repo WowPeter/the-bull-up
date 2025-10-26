@@ -16,10 +16,10 @@ layout: default
 <!-- MASONRY SECTION -->
 <section class="masonry">
   {% for item in site.columns reversed %}
-    {% unless item.layout == 'headline' %}
+    {% if item.layout == 'post' %}
       <div class="item">
         {% include article.html item=item %}
       </div>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </section>
