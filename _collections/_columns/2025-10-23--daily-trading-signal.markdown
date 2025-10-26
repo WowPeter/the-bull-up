@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: headline
 title: 일일 트레이딩 시그널 - 2025년 10월 23일
 author: Quant Analysis System
 date: 2025-10-23 09:00:00 +0900
