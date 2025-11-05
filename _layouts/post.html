@@ -8,7 +8,7 @@ layout: default
         <br>
         <div class="item">
           {% if page.image %}
-            <img src="{{ page.image | prepend: site.baseurl }}">
+            <img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
           {% endif %}
         </div>
         <br>

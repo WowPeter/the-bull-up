@@ -1,6 +1,6 @@
 <article style="cursor: pointer;" onclick="window.location.href='{{ include.item.url | prepend: site.baseurl | prepend: site.url }}'">
   <h3 style="white-space: normal; word-wrap: break-word; line-height: 1.2;"><a href="{{ include.item.url | prepend: site.baseurl | prepend: site.url }}" style="text-decoration: none; color: inherit;">{{ include.item.title }}</a></h3>
-  <img class="bw" src="{{ include.item.image | prepend: site.baseurl }}">
+  <img class="bw" src="{{ include.item.image | prepend: site.baseurl | prepend: site.url }}">
   {% if item.image_caption %}
     <blockquote>{{ include.item.image_caption }}</blockquote>
   {% endif %}
