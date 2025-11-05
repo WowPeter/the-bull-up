@@ -16,7 +16,7 @@
 title: The Bull Up
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  퀀트 투자 전략으로 분석한 종목 분석 정보
+  퀀트 투자 전략으로 분석한 오늘의 종목 분석 정보
 baseurl: "/the-bull-up" # the subpath of your site, e.g. /blog
 url: "https://wowpeter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: 'UA-#########-#' # Substitute this with your own GA key
