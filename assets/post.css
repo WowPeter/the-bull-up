@@ -1,18 +1,4 @@
 
-/* The Bull Up 제목은 원래 영어 폰트로 - 전역 스타일보다 먼저 적용 */
-#masthead,
-#masthead *,
-#masthead h1,
-#masthead h3,
-#masthead h1 a,
-#masthead h3 a,
-div#masthead h1,
-div#masthead h3,
-div#masthead h1 a,
-div#masthead h3 a {
-	font-family: 'UnifrakturMaguntia', cursive !important;
-}
-
 /* Global Korean Font - 모든 한글을 고딕체로 */
 * {
 	font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Nanum Gothic', '나눔고딕', sans-serif !important;
@@ -549,3 +535,19 @@ div#masthead h3 a {
 		}
 
 	}
+
+/* The Bull Up 제목은 원래 영어 폰트로 - 파일 끝에 배치하여 최종 우선순위 확보 */
+#masthead,
+#masthead *,
+#masthead h1,
+#masthead h3,
+#masthead h1 a,
+#masthead h3 a,
+div#masthead,
+div#masthead *,
+div#masthead h1,
+div#masthead h3,
+div#masthead h1 a,
+div#masthead h3 a {
+	font-family: 'UnifrakturMaguntia', cursive !important;
+}
