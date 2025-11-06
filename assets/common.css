@@ -15,13 +15,13 @@ a:hover {
 #masthead h1 {
   text-align: center;
   margin:.25em;
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: 'UnifrakturMaguntia', cursive !important;
   font-size:80px
 }
 #masthead h3 {
   text-align: center;
   padding:.25em;
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: 'UnifrakturMaguntia', cursive !important;
   font-size:25px;
   border-bottom: 1px dotted #ccc;
 }
