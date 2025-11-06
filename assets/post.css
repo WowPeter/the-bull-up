@@ -71,8 +71,13 @@
 		line-height:				1.438em;
 		margin:						0;
 		padding:					0;
-		text-align:					left;
+		text-align:					left !important;
 
+	}
+
+	article h4 {
+		text-align:					left !important;
+		font-style:					normal !important;
 	}
 
 	p {
