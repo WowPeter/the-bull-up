@@ -536,6 +536,11 @@
 
 	}
 
+/* 수익률 구간별 분포의 █ 문자 간격 제거 */
+article p {
+	letter-spacing: 0 !important;
+}
+
 /* The Bull Up 제목은 원래 영어 폰트로 - 파일 끝에 배치하여 최종 우선순위 확보 */
 #masthead,
 #masthead *,
