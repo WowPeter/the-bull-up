@@ -120,7 +120,7 @@ permalink: /about/
 
 궁금한 사항이 있으시면 아래 이메일로 문의해 주세요:
 
-📧 **wide.receiver.korea@gmail.com**
+📧 **<a href="mailto: wide.receiver.korea@gmail.com">wide.receiver.korea@gmail.com</a>**
 
 <br />
 ## 사이트 정보
