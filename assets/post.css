@@ -1,4 +1,9 @@
 
+/* Global Korean Font - 모든 한글을 고딕체로 */
+* {
+	font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Nanum Gothic', '나눔고딕', sans-serif !important;
+}
+
 /* Structure */
 
 	body {
@@ -45,6 +50,7 @@
 	h2 {
 		color:						#222;
 		font-size:					1.375em;
+		font-family:				'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Nanum Gothic', '나눔고딕', sans-serif, georgia, times, serif;
 		font-weight:				600;
 		font-style:					normal;
 		line-height:				1.364em;
@@ -55,6 +61,7 @@
 	h3 {
 		color:						#222;
 		font-size:					1.375em;
+		font-family:				'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Nanum Gothic', '나눔고딕', sans-serif, georgia, times, serif;
 		font-weight:				500;
 		font-style:					normal;
 		line-height:				1.438em;
@@ -88,6 +95,7 @@
 	p {
 		color:						#444;
 		font-size:					1em;
+		font-family:				'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Nanum Gothic', '나눔고딕', sans-serif, georgia, times, serif;
 		line-height:				1.438em;
 		margin:						0 2%;
 		padding:					0 0 1.4em 0;
