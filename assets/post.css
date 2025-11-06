@@ -4,6 +4,12 @@
 	font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Nanum Gothic', '나눔고딕', sans-serif !important;
 }
 
+/* The Bull Up 제목은 원래 영어 폰트로 */
+#masthead h1,
+#masthead h3 {
+	font-family: 'UnifrakturMaguntia', cursive !important;
+}
+
 /* Structure */
 
 	body {
