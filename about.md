@@ -1,12 +1,8 @@
 ---
 layout: post
-title: 이 사이트에 대하여
+title: The Bull Up에 대하여
 permalink: /about/
 ---
-
-# The Bull Up에 대하여
-<br />
-<br />
 
 ## 사이트 소개
 **The Bull Up**은 퀀트 투자 전략을 활용하여 한국 주식 시장의 종목을 분석하고 **매일** 트레이딩 시그널을 제공하는 웹사이트입니다.<br />
