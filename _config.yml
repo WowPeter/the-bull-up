@@ -47,6 +47,7 @@ collections_dir: _collections
 collections:
   columns:
     output: true
+    permalink: /columns/:name.html
   heros:
     output: true
 
