@@ -179,6 +179,18 @@
 		width:						100%;
 	}
 
+	article img {
+		max-width:					100%;
+		height:						auto;
+		display:					block;
+		margin:						0 auto 1.5em;
+	}
+
+	article p:has(img) {
+		margin:						0 0 1.5em 0;
+		padding:					0;
+	}
+
 	.fluid {
 		display:					block;
 		margin:						0 2%;
