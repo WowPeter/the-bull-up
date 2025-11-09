@@ -138,7 +138,8 @@ a:hover {
   width: 30%;
 }
 
-.footer .footer-center i {
+.footer .footer-center i,
+.footer .footer-center .footer-icon {
   background-color: #33383b;
   color: #ffffff;
   font-size: 25px;
@@ -151,7 +152,8 @@ a:hover {
   vertical-align: middle;
 }
 
-.footer .footer-center i.fa-envelope {
+.footer .footer-center i.fa-envelope,
+.footer .footer-center .footer-icon-envelope {
   font-size: 17px;
   line-height: 38px;
 }
