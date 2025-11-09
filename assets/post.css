@@ -181,14 +181,15 @@
 
 	article img {
 		max-width:					100%;
+		width:						100%;
 		height:						auto;
 		display:					block;
-		margin:						0 auto 1.5em;
+		margin:						0 0 1.5em 0;
 	}
 
-	article p:has(img) {
-		margin:						0 0 1.5em 0;
-		padding:					0;
+	article p > img {
+		margin-left:				auto;
+		margin-right:				auto;
 	}
 
 	.fluid {
