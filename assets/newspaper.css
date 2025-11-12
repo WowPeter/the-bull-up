@@ -166,3 +166,19 @@ q {
         column-count: 4;
     }
 }
+
+/* The Bull Up 제목은 UnifrakturMaguntia 폰트 사용 - 전역 폰트 스타일보다 우선순위 높게 */
+#masthead,
+#masthead *,
+#masthead h1,
+#masthead h3,
+#masthead h1 a,
+#masthead h3 a,
+div#masthead,
+div#masthead *,
+div#masthead h1,
+div#masthead h3,
+div#masthead h1 a,
+div#masthead h3 a {
+	font-family: 'UnifrakturMaguntia', cursive !important;
+}
