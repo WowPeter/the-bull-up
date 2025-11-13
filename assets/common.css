@@ -138,8 +138,19 @@ a:hover {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-  font-family: "Font Awesome 6 Brands";
-  font-weight: 400;
+}
+
+.footer .icons a.instagram-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .icons a.instagram-icon svg {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  vertical-align: middle;
 }
 
 
