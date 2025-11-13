@@ -9,6 +9,32 @@
 {% endif %}
 
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+
+{% assign page_url = page.url | prepend: site.baseurl | prepend: site.url %}
+{% assign page_title = page.title | default: site.title %}
+{% assign page_description = page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
+{% if page.image %}
+  {% assign page_image = page.image | prepend: site.baseurl | prepend: site.url %}
+{% else %}
+  {% assign page_image = "/assets/favicon.png" | prepend: site.baseurl | prepend: site.url %}
+{% endif %}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:title" content="{{ page_title }}{% if page.title %} · {{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:image" content="{{ page_image }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ page_url }}">
+<meta name="twitter:title" content="{{ page_title }}{% if page.title %} · {{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ page_description }}">
+<meta name="twitter:image" content="{{ page_image }}">
 
 <link rel="icon" href="{{ "/assets/favicon.png" | prepend: site.baseurl | prepend: site.url }}">
 <link rel="apple-touch-icon" href="{{ "/assets/touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
