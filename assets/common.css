@@ -138,6 +138,8 @@ a:hover {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
 }
 
 
