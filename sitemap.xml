@@ -18,9 +18,25 @@ layout: null
   {% for item in site.columns %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}{{ item.url }}</loc>
-    <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
+    <lastmod>{% if item.date %}{{ item.date | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  {% endfor %}
+  {% for item in site.heros %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ item.url }}</loc>
+    <lastmod>{% if item.date %}{{ item.date | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {% endfor %}
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+    <lastmod>{% if post.date %}{{ post.date | date: '%Y-%m-%d' }}{% else %}{{ site.time | date: '%Y-%m-%d' }}{% endif %}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   {% endfor %}
 </urlset>
