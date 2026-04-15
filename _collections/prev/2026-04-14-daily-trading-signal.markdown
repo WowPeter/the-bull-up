@@ -2,8 +2,8 @@
 layout: headline
 title: 일일 트레이딩 시그널 - 2026년 04월 15일
 author: Quant Analysis System
-date: 2026-04-15 09:45:04 +0900
-startdate: 2026-04-15 09:45:04 +0900
+date: 2026-04-15 09:34:38 +0900
+startdate: 2026-04-15 09:34:38 +0900
 enddate: 2026-04-22 23:59:59 +0900
 image: /assets/images/20260414-today-alert.png
 image_caption: 포지션 변화 알림 - 2026년 04월 15일
